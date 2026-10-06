@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Industrial measurements, trained models, and run outputs are local only.
+data/*
+!data/README.md
+results/*
+!results/README.md
+*.cbm
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.parquet
+*.csv
+*.xlsx
+*.docx
+*.pdf
+*.tif
+*.tiff
+*.png
+
+# Local machine settings and credentials.
+.env
+.env.*
+*.log
+Thumbs.db
+Desktop.ini
